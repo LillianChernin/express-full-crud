@@ -9,7 +9,7 @@ const instruments = [
     id: 2,
     name: 'cello',
     family: 'string',
-    image: '/static/img/cello.jpeg'
+    image: '../static/img/cello.jpeg'
   },
   {
     id: 3,

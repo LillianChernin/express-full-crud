@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='UTF-8' />
+  <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+  <meta http-equiv='X-UA-Compatible' content='ie=edge' />
+  <title><%= documentTitle %></title>
+  <link rel='stylesheet' type='text/css' href='/static/css/style.css'>
+</head>
+<body>
+  <% instrumentsData.forEach(function(instrument) { %>
+  <div class='my-instrument'>
+    <h3 class='instrument-name'><%= instrument.name %></h3>
+    <p class='family'>Family: <%= instrument.family %></p>
+    <img class='image' src='<%= instrument.image %>' alt='<%= instrument.name %>'>
+  </div>
+<%  }) %>
+</body>
+</html>

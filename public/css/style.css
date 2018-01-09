@@ -1,0 +1,8 @@
+.instrument-name, .family {
+  text-transform: capitalize;
+}
+
+.instrument-name {
+  width: 20%;
+  border-bottom: 1px solid black;
+}
